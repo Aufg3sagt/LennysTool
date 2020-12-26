@@ -88,10 +88,10 @@
             this.TrackableOff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TrackableOff.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrackableOff.ForeColor = System.Drawing.Color.Silver;
-            this.TrackableOff.Location = new System.Drawing.Point(0, 336);
+            this.TrackableOff.Location = new System.Drawing.Point(0, 340);
             this.TrackableOff.Name = "TrackableOff";
             this.TrackableOff.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.TrackableOff.Size = new System.Drawing.Size(224, 45);
+            this.TrackableOff.Size = new System.Drawing.Size(226, 47);
             this.TrackableOff.TabIndex = 7;
             this.TrackableOff.Text = "Dragable : Off";
             this.TrackableOff.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -105,7 +105,7 @@
             this.TrackableOn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TrackableOn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrackableOn.ForeColor = System.Drawing.Color.Silver;
-            this.TrackableOn.Location = new System.Drawing.Point(0, 336);
+            this.TrackableOn.Location = new System.Drawing.Point(-2, 341);
             this.TrackableOn.Name = "TrackableOn";
             this.TrackableOn.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.TrackableOn.Size = new System.Drawing.Size(226, 45);
@@ -153,9 +153,10 @@
             this.button11.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.button11.Size = new System.Drawing.Size(226, 46);
             this.button11.TabIndex = 4;
-            this.button11.Text = "---";
+            this.button11.Text = "Create Errorbox";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button5
             // 
@@ -293,7 +294,7 @@
             // 
             this.childpanel.Location = new System.Drawing.Point(229, 0);
             this.childpanel.Name = "childpanel";
-            this.childpanel.Size = new System.Drawing.Size(697, 447);
+            this.childpanel.Size = new System.Drawing.Size(700, 447);
             this.childpanel.TabIndex = 1;
             // 
             // Home

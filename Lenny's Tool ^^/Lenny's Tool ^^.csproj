@@ -52,6 +52,12 @@
     <Compile Include="Coinflip.Designer.cs">
       <DependentUpon>Coinflip.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreateErrorBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateErrorBox.Designer.cs">
+      <DependentUpon>CreateErrorBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="Coinflip.resx">
       <DependentUpon>Coinflip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateErrorBox.resx">
+      <DependentUpon>CreateErrorBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

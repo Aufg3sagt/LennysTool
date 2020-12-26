@@ -49,7 +49,7 @@ namespace Lenny_s_Tool___
 
             if (this.FormBorderStyle == FormBorderStyle.SizableToolWindow)
             {
-                this.Width = 927;
+                this.Width = 943;
                 this.Height = 485;
                 openChildForm(new Spambot());
             }
@@ -64,13 +64,13 @@ namespace Lenny_s_Tool___
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Width = 927;
+            this.Width = 943;
             this.Height = 447;
             this.StartPosition = FormStartPosition.CenterScreen;
 
             if (this.FormBorderStyle == FormBorderStyle.SizableToolWindow)
             {
-                this.Width = 927;
+                this.Width = 943;
                 this.Height = 485;
                 openChildForm(new Coinflip());
             }
@@ -138,7 +138,7 @@ namespace Lenny_s_Tool___
         {
             if (this.FormBorderStyle == FormBorderStyle.SizableToolWindow)
             {
-                this.Width = 927;
+                this.Width = 943;
                 this.Height = 485;
                 openChildForm(new ShutDownTimer());
             }
@@ -148,6 +148,23 @@ namespace Lenny_s_Tool___
                 this.Width = 927;
                 this.Height = 446;
                 openChildForm(new ShutDownTimer());
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (this.FormBorderStyle == FormBorderStyle.SizableToolWindow)
+            {
+                this.Width = 943;
+                this.Height = 485;
+                openChildForm(new CreateErrorBox());
+            }
+
+            else if (this.FormBorderStyle == FormBorderStyle.None)
+            {
+                this.Width = 927;
+                this.Height = 446;
+                openChildForm(new CreateErrorBox());
             }
         }
     }
